@@ -15,5 +15,7 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class",
+  presets: [require('./src/utils/tailwind-preset'),]
 };
 export default config;
